@@ -1,0 +1,327 @@
+{
+  "account": {
+    "id": "owner",
+    "username": "19015464860",
+    "phone": "19015464860",
+    "name": "owner",
+    "role": "owner",
+    "status": "active",
+    "salt": "d471042637531bd3a163035aaaa6dd6f",
+    "hash": "fcec6b5538cc86da776cc180f1fbed97b0089f01971c9d45476668c00172e054",
+    "subAccounts": []
+  },
+  "currentUser": {
+    "phone": "",
+    "role": "owner",
+    "permissions": [
+      "*"
+    ]
+  },
+  "roles": [
+    {
+      "role": "admin",
+      "label": "日常管理员"
+    },
+    {
+      "role": "editor",
+      "label": "内容运营"
+    },
+    {
+      "role": "service",
+      "label": "客户管理"
+    },
+    {
+      "role": "viewer",
+      "label": "数据查看"
+    }
+  ],
+  "media": [
+    {
+      "id": "hero-gulang-tea",
+      "name": "古朗茶席首屏图",
+      "type": "image",
+      "url": "/assets/gulang-tea-hero.png",
+      "size": 0,
+      "createdAt": "2026-05-26T08:42:27.991Z"
+    }
+  ],
+  "home": {
+    "heroTitle": "一盏古朗，山水入茶",
+    "heroSubtitle": "甄选高山茶叶，精选匠心茶器，传承千年茶道文化。我们为茶友、茶空间与企业礼赠提供茶品、茶器与茶文化咨询服务。",
+    "heroMediaType": "image",
+    "heroMediaUrl": "/assets/gulang-tea-hero.png",
+    "heroMediaList": "[{\"type\":\"image\",\"url\":\"/assets/gulang-tea-hero.png\"}]",
+    "about": "古朗以中国茶道文化为根，以山场、工艺、器物与空间美学为脉络，持续整理茶叶品鉴、茶器选择、茶席布置、茶会礼仪与茶文化资讯。我们希望让每一次饮茶都回到自然、时间与人的心意。",
+    "metrics": [
+      "1000+ 高山茶园甄选",
+      "300+ 匠心茶器选择",
+      "20+ 年茶道文化沉淀",
+      "10W+ 茶友信赖之选"
+    ],
+    "advantages": [
+      "严选核心产区，从山场、季节、工艺到仓储建立完整记录。",
+      "茶品、茶器、茶席与茶文化内容一体化呈现。",
+      "适配家庭品饮、商务礼赠、茶空间陈列与企业茶会。"
+    ]
+  },
+  "services": [
+    {
+      "title": "明前龙井",
+      "icon": "茶",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "description": "清雅鲜爽，豆香与兰香交织，适合日常品饮与春茶礼赠。",
+      "detail": "古朗明前龙井强调鲜、嫩、清、雅，适合以玻璃杯或白瓷盖碗冲泡，观其叶形舒展，品其清甜回甘。",
+      "status": "published"
+    },
+    {
+      "title": "武夷岩茶",
+      "icon": "岩",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "description": "岩骨花香，焙火有度，呈现山场气韵与层次回甘。",
+      "detail": "武夷岩茶适合小壶小杯冲泡，重在闻香、观汤、品韵，可作为茶会分享与进阶品鉴茶。",
+      "status": "published"
+    },
+    {
+      "title": "匠心茶器",
+      "icon": "器",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "description": "盖碗、紫砂壶、品茗杯、茶盘与茶席器物，兼顾实用与东方审美。",
+      "detail": "茶器选择会影响温度、香气与仪式感。古朗提供不同茶类适配建议，帮助茶友搭建稳定、耐看的茶席。",
+      "status": "published"
+    },
+    {
+      "title": "茶道文化咨询",
+      "icon": "道",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "description": "围绕茶会礼仪、茶席空间、企业礼赠与文化内容进行策划。",
+      "detail": "从茶会流程、茶席布置、讲解文本到礼赠组合，古朗提供兼具传统文化与现代传播的咨询服务。",
+      "status": "published"
+    }
+  ],
+  "updates": [
+    {
+      "title": "古朗春茶品鉴会开放预约",
+      "date": "2026-05-20",
+      "category": "品牌动态",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "content": "围绕明前绿茶、岩茶与白茶展开小席品鉴，分享选茶、冲泡与留香判断。",
+      "detail": "本期品鉴会以春茶为主题，设置干茶识别、盖碗冲泡、香气比较与茶点搭配环节，适合初学者和进阶茶友共同参与。",
+      "status": "published"
+    },
+    {
+      "title": "茶器新辑：白瓷盖碗与紫砂壶搭配指南",
+      "date": "2026-05-16",
+      "category": "茶器上新",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "content": "从器型、容量、出水与材质差异入手，整理不同茶类适配建议。",
+      "detail": "白瓷盖碗利于观察汤色与香气变化，紫砂壶强调聚香和温润口感。古朗茶器新辑提供日常茶席的组合建议。",
+      "status": "published"
+    },
+    {
+      "title": "企业茶礼定制服务上线",
+      "date": "2026-05-08",
+      "category": "服务公告",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "content": "面向商务往来、节日礼赠和重要客户维护，提供茶品与茶器组合方案。",
+      "detail": "茶礼定制可按预算、收礼人偏好、场景与交付时间配置茶品、器具和礼盒文案，让礼物更有文化温度。",
+      "status": "published"
+    }
+  ],
+  "cases": [
+    {
+      "title": "企业会客茶席方案",
+      "industry": "商务茶礼",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "description": "为企业会客区配置稳定耐泡的茶品、简洁耐看的茶器与茶席说明卡。",
+      "detail": "方案覆盖茶叶选择、茶器配置、陈列动线和接待话术，让会客空间既专业又有中国文化气韵。",
+      "status": "published"
+    },
+    {
+      "title": "城市茶空间内容策划",
+      "industry": "茶空间",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "description": "围绕四季茶单、茶会主题、墙面文案与社群活动建立内容体系。",
+      "detail": "通过茶品故事、产地知识、冲泡方法和活动节奏，帮助茶空间形成可持续运营的文化内容。",
+      "status": "published"
+    },
+    {
+      "title": "中秋茶礼组合设计",
+      "industry": "节令礼赠",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "description": "以岩茶、白茶与小件茶器组成礼盒，配合节令文案与企业定制卡。",
+      "detail": "在控制预算的基础上突出质感、文化感和实用性，让企业礼赠从“送礼”转向“送一段可品饮的时间”。",
+      "status": "published"
+    }
+  ],
+  "news": [
+    {
+      "title": "茶道入门：为什么盖碗适合观察一款茶",
+      "date": "2026-05-22",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "summary": "盖碗方便闻香、观汤与控制出水，是理解茶叶变化的好入口。",
+      "detail": "盖碗的优势在于材质中性、开合灵活、便于观察。初学者可以从投茶量、水温、出汤时间三个变量开始建立品饮感受。",
+      "status": "published"
+    },
+    {
+      "title": "绿茶、岩茶、白茶的醒茶方式有何不同",
+      "date": "2026-05-18",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "summary": "不同茶类对温度、时间和器具的敏感度不同，醒茶方式也应区分。",
+      "detail": "绿茶重鲜爽，一般不宜高温久闷；岩茶可通过温杯烫盏唤醒香气；老白茶则可根据年份与紧压程度调整润茶节奏。",
+      "status": "published"
+    },
+    {
+      "title": "茶席布置中的留白、动线与器物层次",
+      "date": "2026-05-12",
+      "image": "/assets/gulang-tea-hero.png",
+      "video": "",
+      "summary": "一方茶席不在物多，而在主次清楚、取用顺手、气韵安定。",
+      "detail": "茶席布置应先确定主器，再处理水盂、茶则、茶巾与杯盏的位置。留白让视线安定，也让冲泡动作更从容。",
+      "status": "published"
+    }
+  ],
+  "contact": {
+    "phone": "400-800-1668",
+    "email": "contact@gulangtea.com",
+    "wechat": "GulangTea",
+    "address": "福建省武夷山市茶文化交流中心",
+    "hours": "周一至周六 09:00-18:00",
+    "formTitle": "预约品鉴或咨询茶礼",
+    "formIntro": "可留下品饮偏好、茶器需求、茶会/礼赠场景，我们会为你整理合适的茶品与茶文化方案。",
+    "leadNameLabel": "称呼",
+    "leadNamePlaceholder": "请输入您的称呼",
+    "leadPhoneLabel": "电话",
+    "leadPhonePlaceholder": "请输入联系电话",
+    "leadWechatLabel": "微信号",
+    "leadWechatPlaceholder": "可填写微信号，方便发送茶单",
+    "leadWechatVisible": "true",
+    "leadMessageLabel": "咨询内容",
+    "leadMessagePlaceholder": "例如：想了解岩茶、需要企业茶礼、希望布置茶席",
+    "leadSubmitText": "提交咨询",
+    "leadSuccessText": "咨询已提交，古朗茶顾问会尽快联系您。"
+  },
+  "layout": {
+    "style": "showcase",
+    "theme": {
+      "accentColor": "#123c2c",
+      "fontScale": "normal",
+      "cardStyle": "clean",
+      "sectionSpacing": "wide"
+    },
+    "sections": [
+      {
+        "id": "hero",
+        "visible": true,
+        "tone": "light",
+        "align": "left",
+        "display": "featured",
+        "density": "airy",
+        "titleSize": "large",
+        "accentColor": "#123c2c"
+      },
+      {
+        "id": "metrics",
+        "visible": true,
+        "tone": "light",
+        "align": "center",
+        "display": "featured",
+        "density": "standard",
+        "titleSize": "default",
+        "accentColor": "#a46a2a"
+      },
+      {
+        "id": "updates",
+        "visible": true,
+        "tone": "light",
+        "align": "left",
+        "display": "featured",
+        "density": "standard",
+        "titleSize": "default",
+        "columns": "three",
+        "accentColor": "#7b1f18"
+      },
+      {
+        "id": "services",
+        "visible": true,
+        "tone": "light",
+        "align": "left",
+        "display": "featured",
+        "density": "standard",
+        "titleSize": "large",
+        "columns": "three",
+        "accentColor": "#123c2c"
+      },
+      {
+        "id": "about",
+        "visible": true,
+        "tone": "light",
+        "align": "left",
+        "display": "standard",
+        "density": "airy",
+        "titleSize": "large",
+        "accentColor": "#123c2c"
+      },
+      {
+        "id": "cases",
+        "visible": true,
+        "tone": "light",
+        "align": "left",
+        "display": "standard",
+        "density": "standard",
+        "titleSize": "default",
+        "columns": "three",
+        "accentColor": "#a46a2a"
+      },
+      {
+        "id": "news",
+        "visible": true,
+        "tone": "light",
+        "align": "left",
+        "display": "standard",
+        "density": "standard",
+        "titleSize": "default",
+        "columns": "two",
+        "accentColor": "#123c2c"
+      },
+      {
+        "id": "contact",
+        "visible": true,
+        "tone": "light",
+        "align": "left",
+        "display": "featured",
+        "density": "airy",
+        "titleSize": "large",
+        "accentColor": "#7b1f18"
+      }
+    ],
+    "versions": []
+  },
+  "leads": [],
+  "customers": [],
+  "analytics": {
+    "totalViews": 0,
+    "todayViews": 0,
+    "todayUniqueVisitors": 0,
+    "totalUniqueVisitors": 0,
+    "leadCount": 0,
+    "customerCount": 0,
+    "last7Days": [],
+    "topPages": [],
+    "referrers": [],
+    "devices": [],
+    "recent": []
+  },
+  "logs": []
+}

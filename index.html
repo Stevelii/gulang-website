@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="古朗茶叶品牌官网，展示中国茶叶、茶器、茶道文化资讯与茶礼咨询服务。" />
+    <meta name="keywords" content="古朗,茶叶,茶器,茶道文化,中国茶,茶礼" />
+    <meta name="theme-color" content="#123c2c" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="古朗茶叶" />
+    <meta property="og:description" content="一盏古朗，山水入茶。甄选茶叶、茶器与中国茶道文化资讯。" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="/" />
+    <!-- SEO_META -->
+    <title>古朗茶叶 | 山水入茶 匠心传承</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/#home" aria-label="古朗茶叶首页">
+        <span class="brand-mark">古朗</span>
+        <span>
+          <strong>古朗茶叶</strong>
+          <small>山水入茶 匠心传承</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a href="#services">茶叶</a>
+        <a href="#services">茶器</a>
+        <a href="#news">茶道文化</a>
+        <a href="#about">品牌故事</a>
+        <a href="#updates">最新资讯</a>
+        <a href="#contact">联系我们</a>
+        <button class="admin-entry-button" id="adminEntry" type="button">管理后台</button>
+      </nav>
+    </header>
+
+    <main id="publicSite">
+      <section class="hero" id="home" data-section="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Website Framework</p>
+          <h1 id="heroTitle">官网首页</h1>
+          <p id="heroSubtitle">请在后台配置网站内容。</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#services">品鉴茶品</a>
+            <a class="secondary-button" href="#news">了解茶道</a>
+          </div>
+          <div class="hero-links" aria-label="核心内容入口">
+            <a href="#services">高山茶叶</a>
+            <a href="#services">匠心茶器</a>
+            <a href="#news">茶道文化</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="核心数据" data-section="metrics">
+        <article><strong id="metricYears"></strong><span></span></article>
+        <article><strong id="metricCases"></strong><span></span></article>
+        <article><strong id="metricResponse"></strong><span></span></article>
+        <article><strong id="metricSatisfaction"></strong><span></span></article>
+      </section>
+
+      <section class="section" id="updates" data-section="updates">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="eyebrow">Updates</p>
+            <h2>最新动态</h2>
+          </div>
+          <span></span>
+        </div>
+        <div class="update-grid" id="updateList"></div>
+      </section>
+
+      <section class="section" id="services" data-section="services">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>核心业务</h2>
+          <p></p>
+        </div>
+        <div class="service-grid" id="serviceList"></div>
+      </section>
+
+      <section class="split-section" id="about" data-section="about">
+        <div>
+          <p class="eyebrow">About Us</p>
+          <h2>关于我们</h2>
+          <p id="aboutText"></p>
+          <div class="value-list" id="advantageList"></div>
+        </div>
+        <aside class="about-panel">
+          <span></span>
+          <strong></strong>
+          <p></p>
+        </aside>
+      </section>
+
+      <section class="section surface" id="cases" data-section="cases">
+        <div class="section-heading">
+          <p class="eyebrow">Cases</p>
+          <h2>客户案例</h2>
+          <p></p>
+        </div>
+        <div class="case-grid" id="caseList"></div>
+      </section>
+
+      <section class="section" id="news" data-section="news">
+        <div class="section-heading row-heading">
+          <div>
+            <p class="eyebrow">News</p>
+            <h2>新闻资讯</h2>
+          </div>
+          <span></span>
+        </div>
+        <div class="news-list" id="newsList"></div>
+      </section>
+
+      <section class="contact-section" id="contact" data-section="contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contactFormTitle">联系表单</h2>
+          <p id="contactFormIntro"></p>
+          <dl class="contact-info" id="contactInfo"></dl>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label data-lead-field="name"><span>姓名</span><input name="name" type="text" placeholder="请输入姓名" required /></label>
+          <label data-lead-field="phone"><span>电话</span><input name="phone" type="tel" placeholder="请输入联系电话" required /></label>
+          <label data-lead-field="wechat"><span>微信号</span><input name="wechat" type="text" placeholder="可填写微信号，方便联系" /></label>
+          <input class="hidden" name="website" type="text" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <label data-lead-field="message"><span>需求</span><textarea name="message" rows="5" placeholder="请简单描述项目需求" required></textarea></label>
+          <button class="primary-button" type="submit" id="contactSubmitButton">提交留言</button>
+          <p class="form-tip" id="formTip" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <section class="admin-shell hidden" id="adminShell" aria-label="后台管理">
+      <aside class="admin-sidebar">
+        <div class="admin-brand">
+          <span class="brand-mark">古朗</span>
+          <div>
+            <strong>网站管理后台</strong>
+            <small>古朗茶叶官网</small>
+          </div>
+        </div>
+        <button class="admin-tab active" data-panel="overview" type="button">总览</button>
+        <button class="admin-tab" data-panel="home" type="button">首页配置</button>
+        <button class="admin-tab" data-panel="layout" type="button">页面布局</button>
+        <button class="admin-tab" data-panel="media" type="button">媒体管理</button>
+        <button class="admin-tab" data-panel="updates" type="button">动态管理</button>
+        <button class="admin-tab" data-panel="services" type="button">产品服务</button>
+        <button class="admin-tab" data-panel="cases" type="button">案例管理</button>
+        <button class="admin-tab" data-panel="news" type="button">新闻管理</button>
+        <button class="admin-tab" data-panel="contact" type="button">联系信息</button>
+        <button class="admin-tab" data-panel="customers" type="button">客户管理</button>
+        <button class="admin-tab" data-panel="analytics" type="button">访问统计</button>
+        <button class="admin-tab" data-panel="logs" type="button">操作日志</button>
+        <button class="admin-tab" data-panel="account" type="button">管理员账号</button>
+        <button class="outline-button" id="exitAdmin" type="button">返回官网</button>
+      </aside>
+      <div class="admin-main">
+        <div class="admin-topbar">
+          <div>
+            <p class="eyebrow">Admin Console</p>
+            <h2 id="adminPanelTitle">总览</h2>
+          </div>
+          <button class="ghost-button" id="resetDemo" type="button">恢复正式初始数据</button>
+        </div>
+        <div id="adminContent"></div>
+      </div>
+    </section>
+
+    <div class="modal hidden" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
+      <form class="login-card" id="loginForm">
+        <button class="modal-close" id="closeLogin" type="button" aria-label="关闭">×</button>
+        <p class="eyebrow">Management</p>
+        <h2 id="loginTitle">管理员登录</h2>
+        <div class="auth-mode-switch" role="tablist" aria-label="登录方式">
+          <button class="mini-button active" data-login-mode="password" type="button">密码登录</button>
+          <button class="mini-button" data-login-mode="code" type="button">验证码登录</button>
+        </div>
+        <label>手机号<input name="phone" type="tel" inputmode="numeric" autocomplete="tel" placeholder="请输入管理员手机号" required /></label>
+        <label data-password-row>密码<input name="password" type="password" autocomplete="current-password" placeholder="请输入登录密码" required /></label>
+        <div class="code-row hidden" data-code-row>
+          <label>验证码<input name="code" type="text" inputmode="numeric" autocomplete="one-time-code" placeholder="请输入验证码" /></label>
+          <button class="ghost-button" data-send-login-code type="button">获取验证码</button>
+        </div>
+        <button class="primary-button" type="submit">进入后台</button>
+        <button class="outline-button" data-show-reset type="button">忘记密码</button>
+        <div class="password-reset-box hidden" data-reset-box>
+          <strong>通过手机号验证码修改密码</strong>
+          <label>手机号<input name="resetPhone" type="tel" inputmode="numeric" placeholder="请输入管理员手机号" /></label>
+          <div class="code-row">
+            <label>验证码<input name="resetCode" type="text" inputmode="numeric" placeholder="请输入验证码" /></label>
+            <button class="ghost-button" data-send-reset-code type="button">获取验证码</button>
+          </div>
+          <label>新密码<input name="resetPassword" type="password" autocomplete="new-password" placeholder="请输入新密码" /></label>
+          <button class="secondary-admin-button" data-reset-password type="button">确认修改密码</button>
+        </div>
+        <p class="form-tip" id="loginTip">可选择密码登录，也可以使用手机号验证码登录。</p>
+        <p class="error-text" id="loginError" role="alert"></p>
+      </form>
+    </div>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> 古朗茶叶</span>
+      <span>ICP备案号：待备案后填写</span>
+      <span>一盏茶里，见山水与人心。</span>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

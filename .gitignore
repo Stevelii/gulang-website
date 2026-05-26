@@ -1,0 +1,19 @@
+node_modules/
+.env
+
+# Runtime logs and generated reports
+*.log
+server.log
+server.err.log
+
+# Local release archives
+*.zip
+release-*.zip
+
+# Local tunnel/runtime binaries
+tools/*.exe
+
+# Private runtime data
+data/admin-audit.log
+data/analytics.json
+data/backups/
